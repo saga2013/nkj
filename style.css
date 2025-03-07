@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4bfbf;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: rgb(217, 214, 214);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0e65c3;
+}
+
+.country-card {
+    margin-top: 20px;
+    background-color: rgb(213, 210, 210);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(24, 24, 24, 0.1);
+    text-align: left;
+}
+
+.country-card img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
